@@ -1,20 +1,24 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1 style="color:blue;">A Blue Heading</h1>
-
-<p style="color:red;">A red paragraph.</p>
-
-</body>
-</html>
 
 <!DOCTYPE html>
 <html>
   <head>
+    h1 {
+  color: red;
+  animation: myanimation 2s infinite;
+}
+
+@keyframes myanimation {
+  from {
+    color: red;
+  }
+  to {
+    color: yellow;
+  }
+}
     <link rel="stylesheet" href="./mms.app.css" type="text" />
   </head>
   <body>
+    <h1>Hello world!</h1>
         <div class="btn-group">            
           <input type="button" name="btnCreate" value="Create" id="btnCreate" class="inputsubmit save" />            
         </div>
@@ -24,17 +28,20 @@
   </tr>
     <tr>
     <td style="color:red;">Hello Khorsehd</td>
-      <td align="right">  <img src="./bg20190828120852.jpg" width="150" height="150"  title="Portfolio image"  alt="banner"/></td>
+      <td align="right">  <img src="./bg20190828120852.jpg" style="float:right;width:42px;height:42px;border-radious:10px;background-color:red;"  title="Portfolio image"  alt="banner"/></td>
   </tr>
 </table>
 <p>Hello pre</p> 
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
   </body>
 
-
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
 <h1 style="color:blue;">A Blue Heading</h1>
 
 <p style="color:red;">A red paragraph.</p>
 
+<img src="./bg20190828120852.jpg" alt="Smiley face" width="80" height="80" style="border:5px solid black;border-radious:10px;background-color:red;">
+ 
 </body>
 </html>
 #### Web Developer (C#)
